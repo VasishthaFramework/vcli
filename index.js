@@ -8,10 +8,10 @@ let port = 8080;
 
 program
   .version('0.0.1', '-v, --version')
-  .arguments('[file]')
+  .arguments('<folder>')
   .option('-p, --port [value]','Port Number')
-  .action(function(file) {
-    const filepath = path.resolve(file);
+  .action(function(folder) {
+    const filepath = path.resolve(folder);
     const app = new V();
     const controllers = `${filepath}/controllers`;
     const views = `${filepath}/views`;
