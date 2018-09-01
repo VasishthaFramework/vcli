@@ -1,0 +1,22 @@
+{
+  "name": "vcli",
+  "version": "1.0.0",
+  "description": "CLI for Vasishtha Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archanpatkar/vcli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archanpatkar/vcli/issues"
+  },
+  "homepage": "https://github.com/archanpatkar/vcli#readme",
+  "dependencies": {
+    "commander": "^2.17.1"
+  }
+}
